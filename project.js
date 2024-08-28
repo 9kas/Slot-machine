@@ -149,7 +149,7 @@ const game = () => {
     const winnings = getWinnings(rows, bet, numberOfLines);
     balance += winnings;
     console.log("You won, £" + winnings.toString());
-
+//this means no money
     if(balance <= 0){
       console.log("You have no money left.");
       break;
